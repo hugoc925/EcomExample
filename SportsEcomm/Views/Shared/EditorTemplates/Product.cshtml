@@ -1,0 +1,48 @@
+﻿@model SportsEcomm.Models.Product
+
+@{
+    Layout = null;
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayFor(e=>e.categoryId)
+                @Html.HiddenFor(e=>e.categoryId)
+            </th>
+            <th>
+                @Html.DisplayFor(e=>e.name)
+                @Html.HiddenFor(e=>e.name)
+            </th>
+            <th>
+               @Html.DisplayFor(e=>e.description)
+                @Html.HiddenFor(e=>e.description)
+            </th>
+            <th>
+               @Html.DisplayFor(e=>e.price)
+                @Html.HiddenFor(e=>e.price))
+            </th>
+            <th>
+                @Html.DisplayFor(e=>e.image)
+                @Html.HiddenFor(e=>e.image)
+            </th>
+@*            <th>
+                @Html.DisplayFor(e=>e.taxes)
+                @Html.HiddenFor(e=>e.taxes)
+            </th>*@
+            <th> 
+                @Html.CheckBoxFor(e=>e.check)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+
+
+}
+    </tbody>
+</table>
+
+Message #general
+
